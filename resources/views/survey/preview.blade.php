@@ -74,7 +74,7 @@ window.Echo.channel('public-channel')
              
                 if(e.message){
                         var calc = ids[i].nextElementSibling.nextElementSibling.getElementsByTagName('small')[0].innerHTML;
-                        ids[i].nextElementSibling.nextElementSibling.getElementsByTagName('small')[0].style.width = `${+calc+1}%`;
+                        ids[i].nextElementSibling.nextElementSibling.style.width = `${+calc+1}%`;
                     ids[i].nextElementSibling.nextElementSibling.getElementsByTagName('small')[0].innerHTML = +calc+1;
               
                 }
