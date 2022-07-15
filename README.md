@@ -8,10 +8,17 @@
 </p>
 
 ## ****Commands for running project****
+First Commands
 
-First commands php artisan migrate
-Second Command php artisan websockets:serve 
-Second Command php artisan serve
+    php artisan migrate
+    
+Second Commands
+
+    php artisan websockets:serve 
+     
+Third Commands
+
+    php artisan serve
 
 
 
