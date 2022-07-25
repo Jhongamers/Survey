@@ -10,13 +10,17 @@
 ## ****Commands for running project****
 First Commands
 
-    php artisan migrate
+   composer install
     
 Second Commands
 
+    php artisan migrate
+    
+Third Commands
+
     php artisan websockets:serve 
      
-Third Commands
+Fourth Commands
 
     php artisan serve
 
